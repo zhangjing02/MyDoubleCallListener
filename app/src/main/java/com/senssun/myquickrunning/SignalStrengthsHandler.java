@@ -76,7 +76,6 @@ public class SignalStrengthsHandler {
         }
     }
 
-
     private void initListeners() {
         listenSimSignalStrengths(SimCard.SIM_CARD_1);
         listenSimSignalStrengths(SimCard.SIM_CARD_2);
@@ -89,14 +88,14 @@ public class SignalStrengthsHandler {
             if (sub0 != null && null == mSim1SignalStrengthsListener) {
                 mSim1SignalStrengthsListener = new Sim1SignalStrengthsListener(sub0.getSubscriptionId());
             }
-           // mTelephonyManager.listen(mSim1SignalStrengthsListener, PhoneStateListener.LISTEN_SIGNAL_STRENGTHS);//这个是监听卡1的信号
+           // mTelephonyManager.listen(mSim1SignalStrengthsListener, PhoneStateListener.LISTEN_SIGNAL_STRENGTHS);//这个是监听卡1的信号强度
             mTelephonyManager.listen(mSim1SignalStrengthsListener, PhoneStateListener.LISTEN_CALL_STATE);//这个是监听卡1来电的情况
         } else if (simCard == SimCard.SIM_CARD_2) {
             SubscriptionInfo sub1 = mSubscriptionManager.getActiveSubscriptionInfoForSimSlotIndex(INDEX_SIM2);
             if (sub1 != null && null == mSim2SignalStrengthsListener) {
                 mSim2SignalStrengthsListener = new Sim2SignalStrengthsListener(sub1.getSubscriptionId());
             }
-           // mTelephonyManager.listen(mSim2SignalStrengthsListener, PhoneStateListener.LISTEN_SIGNAL_STRENGTHS);//这个是监听卡2的信号
+           // mTelephonyManager.listen(mSim2SignalStrengthsListener, PhoneStateListener.LISTEN_SIGNAL_STRENGTHS);//这个是监听卡2的信号强度
             mTelephonyManager.listen(mSim2SignalStrengthsListener, PhoneStateListener.LISTEN_CALL_STATE);//这个是监听卡2来电的情况
         }
     }
@@ -234,20 +233,16 @@ public class SignalStrengthsHandler {
             switch(state){
                 case TelephonyManager.CALL_STATE_IDLE:
 //                    NotiService.SendNumber(incomingNumber);
-                    System.out.println("挂断xxxx");
+                    Log.i(TAG, "卡1的响铃:来电挂断"+incomingNumber);
                     break;
                 case TelephonyManager.CALL_STATE_OFFHOOK:
-                    System.out.println("接听xxxxxx");
+                    Log.i(TAG, "卡1的响铃:来电接听"+incomingNumber);
                     break;
                 case TelephonyManager.CALL_STATE_RINGING:
-                    System.out.println("卡1的响铃:来电号码xxxxx"+incomingNumber);
-//输出来电号码
+                    Log.i(TAG, "卡1的响铃:来电号码xxxxx"+incomingNumber);
                     break;
             }
         }
-
-
-
 
     }
 
@@ -277,14 +272,13 @@ public class SignalStrengthsHandler {
             switch(state){
                 case TelephonyManager.CALL_STATE_IDLE:
 //                    NotiService.SendNumber(incomingNumber);
-                    System.out.println("挂断xxxx");
+                    Log.i(TAG, "卡2的响铃:来电挂断"+incomingNumber);
                     break;
                 case TelephonyManager.CALL_STATE_OFFHOOK:
-                    System.out.println("接听xxxxxx");
+                    Log.i(TAG, "卡2的响铃:来电接听"+incomingNumber);
                     break;
                 case TelephonyManager.CALL_STATE_RINGING:
-                    System.out.println("卡2的响铃:来电号码xxxxx"+incomingNumber);
-//输出来电号码
+                    Log.i(TAG, "卡2的响铃:来电号码xxxxx"+incomingNumber);
                     break;
             }
         }
