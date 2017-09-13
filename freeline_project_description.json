@@ -1,0 +1,108 @@
+{
+    "android_gradle_plugin_version": "2.3.1",
+    "apk_path": "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\build\\outputs\\apk\\app-debug.apk",
+    "auto_dependency": true,
+    "build_cache_dir": "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\build\\freeline",
+    "build_directory": "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\build",
+    "build_script": "gradlew.bat :app:assembleDebug",
+    "build_script_work_directory": "",
+    "build_tools_directory": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\build-tools\\26.0.1",
+    "build_tools_version": "26.0.1",
+    "check_sources_md5": [
+        
+    ],
+    "compile_sdk_directory": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk\\platforms\\android-26",
+    "compile_sdk_version": "android-26",
+    "databinding": [
+        
+    ],
+    "databinding_modules": [
+        
+    ],
+    "debug_package": "com.senssun.myquickrunning",
+    "exclude_dep_res_paths": [
+        
+    ],
+    "extra_dep_res_paths": [
+        
+    ],
+    "freeline_cache_dir": "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning",
+    "freeline_gradle_plugin_version": "0.8.7",
+    "ignore_resource_ids": [
+        "avd_hide_password_1",
+        "avd_hide_password_2",
+        "avd_hide_password_3",
+        "avd_show_password_1",
+        "avd_show_password_2",
+        "avd_show_password_3"
+    ],
+    "java_home": "C:\\Program Files\\Java\\jdk1.8.0_65",
+    "launcher": "com.senssun.myquickrunning.SecondActivity",
+    "main_assets_directory": [
+        "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\debug\\assets",
+        "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\main\\assets"
+    ],
+    "main_jniLibs_directory": [
+        "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\debug\\jniLibs",
+        "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\main\\jniLibs"
+    ],
+    "main_jni_directory": [
+        "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\debug\\jni",
+        "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\main\\jni"
+    ],
+    "main_manifest_path": "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\main\\AndroidManifest.xml",
+    "main_project_dir": "app",
+    "main_project_name": "app",
+    "main_r_path": "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\build\\generated\\source\\r\\debug\\R.java",
+    "main_res_directory": [
+        "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\debug\\res",
+        "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\main\\res"
+    ],
+    "main_src_directory": [
+        "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\debug\\java",
+        "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\main\\java"
+    ],
+    "module_dependencies": {
+        "app": [
+            
+        ]
+    },
+    "modules": [
+        {
+            "name": "app",
+            "path": "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app"
+        }
+    ],
+    "package": "com.senssun.myquickrunning",
+    "product_flavor": "",
+    "project_source_sets": {
+        "app": {
+            "main_assets_directory": [
+                "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\debug\\assets",
+                "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\main\\assets"
+            ],
+            "main_jniLibs_directory": [
+                "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\debug\\jniLibs",
+                "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\main\\jniLibs"
+            ],
+            "main_jni_directory": [
+                "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\debug\\jni",
+                "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\main\\jni"
+            ],
+            "main_manifest_path": "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\main\\AndroidManifest.xml",
+            "main_res_directory": [
+                "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\debug\\res",
+                "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\main\\res"
+            ],
+            "main_src_directory": [
+                "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\debug\\java",
+                "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning\\app\\src\\main\\java"
+            ]
+        }
+    },
+    "project_type": "gradle",
+    "root_dir": "D:\\MyStudingDemo\\2017\\Sep\\MyQuickRunning",
+    "sdk_directory": "C:\\Users\\user\\AppData\\Local\\Android\\Sdk",
+    "use_jdk8": true,
+    "use_system_gradle": false
+}
